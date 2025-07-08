@@ -54,3 +54,25 @@ form input.equal{
 form input.operator{
     color:black;
 }
+
+@media (max-width: 480px) {
+    .calculator form input {
+        height: 50px;
+        width: 50px;
+        font-size: 18px;
+        margin: 8px;
+    }
+
+    form input.equal {
+        width: calc(50px * 2 + 8px);
+    }
+
+    form .display input {
+        font-size: 30px;
+        padding: 8px;
+    }
+
+    .calculator {
+        padding: 15px;
+    }
+}
